@@ -1,0 +1,118 @@
+\documentclass[14pt]{beamer}
+
+% Use your own \newcommands or use these
+
+\newcommand{\cC}{{\mathcal C}}
+\newcommand{\cE}{{\mathcal E}}
+\newcommand{\cL}{{\mathcal L}}
+\newcommand{\cW}{{\mathcal W}}
+\newcommand{\cH}{{\mathcal H}}
+\newcommand{\cT}{{\mathcal T}}
+\newcommand{\cS}{\mathcal S}
+\newcommand{\cO}{\mathcal O}
+\newcommand{\cP}{\mathcal P}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\BB}{\mathbb{B}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\mode<presentation>
+{
+  \usetheme{Darmstadt}
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[english]{babel}
+
+\usepackage[latin1]{inputenc}
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{graphics}
+
+\title[EM Test]
+{EM Algorithm Test}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% use this if you have sections
+
+\begin{frame}
+  \frametitle{\today}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+\section{Section 1}
+\begin{frame}
+\frametitle{Test 1}
+\[
+a^2 + b^2 = c^2
+\]
+\end{frame}
+
+\begin{frame}
+\frametitle{Test 2}
+This is some text.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Test 3}
+This is a block.
+
+\begin{block}{Block title!}
+We know that 
+\[\int \sin x \, dx = - \cos x + C
+\]
+\end{block}
+
+\end{frame}
+
+\section{Section B}
+\begin{frame}
+\frametitle{Differential Equations}
+\begin{equation*}
+\begin{split}
+\frac{dT_1}{dt} &= c(T_1^* - T_1) + |q| (T_2 - T_1) , \\
+\frac{dT_2}{dt} &= c(T_2^* - T_2) + |q| (T_1 - T_2) , \\
+\frac{dS_1}{dt} &= -H + d(S_1^* - S_1) + |q| (S_2 - S_1) ,\\
+\frac{dS_2}{dt} &= H + d(S_2^* - S_2) + |q| (S_1 - S_2) ,
+\end{split}
+\end{equation*}
+\end{frame}
+
+\begin{frame}
+\frametitle{Show them one line at a time.}
+\begin{itemize}
+\item
+This is line 1.
+\pause
+\item
+This is line 2.
+\pause
+\item
+This is line 3.
+\pause
+\item
+This is line 4.
+\end{itemize}
+
+\end{frame}
+
+
+
+
+\end{document}
+
+Him and
